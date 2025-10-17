@@ -7,10 +7,12 @@ run:
 branding:
   icon: "git-branch"
   color: "red"
-input:
+inputs:
   email:
     description: The commiter's email address
     required: true
+    default: ${{ github.actor }}@localhost
   name:
     description: The commiter's name
     required: true
+    default: ${{ github.actor }}
