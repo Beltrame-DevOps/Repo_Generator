@@ -1,7 +1,7 @@
 name: "File Generator"
 author: "Vitor Beltrame"
 description: "It is a test for generating a file from YAML file"
-run:
+runs:
   using: "docker"
   image: "Dockerfile"
 branding:
